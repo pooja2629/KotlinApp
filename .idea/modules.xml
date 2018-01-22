@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/KotlinApp.iml" filepath="$PROJECT_DIR$/KotlinApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ankodemo/ankodemo.iml" filepath="$PROJECT_DIR$/ankodemo/ankodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asyncobs/asyncobs.iml" filepath="$PROJECT_DIR$/asyncobs/asyncobs.iml" />
       <module fileurl="file://$PROJECT_DIR$/kotlinmodule/kotlinmodule.iml" filepath="$PROJECT_DIR$/kotlinmodule/kotlinmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
     </modules>
   </component>
 </project>

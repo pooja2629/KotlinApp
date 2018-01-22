@@ -1,10 +1,10 @@
 package com.example.ankodemo
 
 import android.app.DatePickerDialog
-import android.app.ProgressDialog
 import android.app.TimePickerDialog
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
@@ -20,8 +20,11 @@ class MainActivity : AppCompatActivity() {
                         title = "Title"
                         message = "Message"
                         yesButton {
+                            toast("""system is working""")
                         }
                         noButton {
+                            toast("""system is not working""")
+
                         }
                     }.show()
                 }
@@ -51,7 +54,31 @@ class MainActivity : AppCompatActivity() {
                     ).show()
                 }
             }
+            button("Custom"){
+                onClick {
+                    alert {
+//                        customView {
+//                            verticalLayout {
+//                               val nm = editText()
+//
+//                                button("GO"){
+//                                    toast("""Go Clicked ${nm.text}""")
+//                                }
+//                            }
+//                        }
+                        customView = View
+                                .inflate(this@MainActivity,R.layout.custom,null)
+                    }.show()
+                }
+            }
+            button("Progress"){
+                onClick {
 
+                       // indeterminateProgressDialog("Loading").show() // - for Spinner
+                        progressDialog("Please wait a minute.",
+                                "Downloading…").show()
+                }
+            }
         }
     }
 }
