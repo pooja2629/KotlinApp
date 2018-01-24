@@ -1,1 +1,1 @@
-include ':app', ':kotlinmodule', ':ankodemo', ':asyncobs', ':statusbarnotification'
+include ':app', ':kotlinmodule', ':ankodemo', ':asyncobs', ':statusbarnotification', ':runtimepermission'

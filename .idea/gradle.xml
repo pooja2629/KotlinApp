@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asyncobs" />
             <option value="$PROJECT_DIR$/kotlinmodule" />
+            <option value="$PROJECT_DIR$/runtimepermission" />
             <option value="$PROJECT_DIR$/statusbarnotification" />
           </set>
         </option>
