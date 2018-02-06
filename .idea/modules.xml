@@ -3,11 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KotlinApp.iml" filepath="$PROJECT_DIR$/KotlinApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/ankodemo/ankodemo.iml" filepath="$PROJECT_DIR$/ankodemo/ankodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyncobs/asyncobs.iml" filepath="$PROJECT_DIR$/asyncobs/asyncobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" filepath="$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentfilters/intentfilters.iml" filepath="$PROJECT_DIR$/intentfilters/intentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internalstorage/internalstorage.iml" filepath="$PROJECT_DIR$/internalstorage/internalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/kotlinmodule/kotlinmodule.iml" filepath="$PROJECT_DIR$/kotlinmodule/kotlinmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
     </modules>
   </component>

@@ -1,1 +1,1 @@
-include ':app', ':kotlinmodule', ':ankodemo', ':asyncobs', ':statusbarnotification', ':runtimepermission'
+include ':app', ':kotlinmodule', ':ankodemo', ':asyncobs', ':statusbarnotification', ':runtimepermission', ':intentfilters', ':broadcastreceivers', ':services', ':aidlserver', ':aidlclient', ':internalstorage', ':sharedpreferences', ':sqlite', ':contentprovider'
